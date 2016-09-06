@@ -6,6 +6,7 @@
 development:
   adapter: postgresql
   encoding: unicode
+  host: ec2-54-243-45-168.compute-1.amazonaws.com
   database: d7klq9l8qbqh1p
   pool: 50
   username: noojgujmewvjei
