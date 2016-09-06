@@ -6,10 +6,10 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: apsu2005
+  database: d7klq9l8qbqh1p
   pool: 50
-  username: apsu2005
-  password: apsuAdmin
+  username: noojgujmewvjei
+  password: MOB9J8hPcuuJhPdoxWtSl23QEY
   timeout: 500000
 
 # Warning: The database defined as "test" will be erased and
@@ -22,7 +22,10 @@ test:
   timeout: 5000
 
 production:
-  adapter: sqlite3
-  database: db/production.sqlite3
-  pool: 5
-  timeout: 5000
+  adapter: postgresql
+  encoding: unicode
+  database: d7klq9l8qbqh1p
+  pool: 50
+  username: noojgujmewvjei
+  password: MOB9J8hPcuuJhPdoxWtSl23QEY
+  timeout: 500000
